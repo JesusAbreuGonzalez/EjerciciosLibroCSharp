@@ -3,11 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Ejercicio1
-{
-    class Perimetro
+    class Ejercicio2_1
     {
-        static void Main(string[] args)
+        public Ejercicio2_1()
         {
             int cantidadLado;
             float medidaLado;
@@ -24,4 +22,3 @@ namespace Ejercicio1
             Console.Write("El perimetro del poligono es: {0}", perimetro);
         }
     }
-}

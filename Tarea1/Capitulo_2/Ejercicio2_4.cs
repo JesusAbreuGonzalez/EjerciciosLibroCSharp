@@ -3,11 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Ejercicio4
-{
-    class Temperatura
+    class Ejercicio2_4
     {
-        static void Main(string[] args)
+        public Ejercicio2_4()
         {
             float celsius;
             float fahrenheit;
@@ -21,4 +19,3 @@ namespace Ejercicio4
             Console.WriteLine("{0} grados Fahrenheit", fahrenheit);
         }
     }
-}

@@ -3,11 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Ejercicio3
-{
-    class Conversion
+    class Ejercicio2_3
     {
-        static void Main(string[] args)
+        public Ejercicio2_3()
         {
             float grados;
             double radianes;
@@ -21,4 +19,3 @@ namespace Ejercicio3
             Console.WriteLine("es igual a {0} radianes", radianes);
         }
     }
-}

@@ -3,11 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Ejercicio4
-{
-    class Dias
+    class Ejercicio3_4
     {
-        static void Main(string[] args)
+        public Ejercicio3_4()
         {
             int numero;
 
@@ -43,4 +41,3 @@ namespace Ejercicio4
             }
         }
     }
-}

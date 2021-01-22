@@ -1,0 +1,34 @@
+﻿<Window x:Class="EjerciciosLibroCSharp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EjerciciosLibroCSharp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="Menu" OpacityMask="White" Background="White" ScrollViewer.VerticalScrollBarVisibility="Visible" Visibility="Visible" Cursor="">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="BienvenidaLabel" Content="Bienvenido al menu de los ejercicios del libro de C#" HorizontalAlignment="Center" Margin="0,45,0,0" VerticalAlignment="Top" Height="34" Width="424" FontSize="18" RenderTransformOrigin="0.501,0.584"/>
+        <Label Content="Capitulo 1" HorizontalAlignment="Left" Margin="73,129,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Capitulo 2" HorizontalAlignment="Left" Margin="220,129,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Capitulo 3" HorizontalAlignment="Center" Margin="0,129,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Capitulo 4" HorizontalAlignment="Left" Margin="509,129,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Capitulo 5" HorizontalAlignment="Left" Margin="649,129,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Button x:Name="Ejercicio1_1Boton" Content="Ejercicio 1" HorizontalAlignment="Left" Margin="81,163,0,0" VerticalAlignment="Top" Height="34" Width="57"/>
+        <Button x:Name="Ejercicio1_5Boton" Content="Ejercicio 5" HorizontalAlignment="Left" Margin="81,217,0,0" VerticalAlignment="Top" Height="34" Width="57"/>
+        <Button x:Name="Ejercicio2_5Boton" Content="Ejercicio 5" HorizontalAlignment="Left" Margin="228,322,0,0" VerticalAlignment="Top" Height="34" Width="57"/>
+        <Button x:Name="Ejercicio2_4Boton" Content="Ejercicio 4" HorizontalAlignment="Left" Margin="228,269,0,0" VerticalAlignment="Top" Height="34" Width="57"/>
+        <Button x:Name="Ejercicio2_3Boton" Content="Ejercicio 3" HorizontalAlignment="Left" Margin="228,217,0,0" VerticalAlignment="Top" Height="34" Width="57"/>
+        <Button x:Name="Ejercicio2_1Boton" Content="Ejercicio 1" HorizontalAlignment="Left" Margin="228,163,0,0" VerticalAlignment="Top" Height="34" Width="57"/>
+        <Button x:Name="Ejercicio3_4Boton" Content="Ejercicio 4" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Height="34" Width="57"/>
+        <Button x:Name="Ejercicio3_1Boton" Content="Ejercicio 1" HorizontalAlignment="Center" Margin="0,163,0,0" VerticalAlignment="Top" Height="34" Width="56"/>
+        <Button x:Name="Ejercicio4_5Boton" Content="Ejercicio 5" HorizontalAlignment="Left" Margin="518,269,0,0" VerticalAlignment="Top" Height="34" Width="56" Click="Ejercicio4_5Boton_Click"/>
+        <Button x:Name="Ejercicio4_2Boton" Content="Ejercicio 2" HorizontalAlignment="Left" Margin="518,217,0,0" VerticalAlignment="Top" Height="34" Width="56" Click="Ejercicio4_2Boton_Click"/>
+        <Button x:Name="Ejercicio4_1Boton" Content="Ejercicio 1" HorizontalAlignment="Left" Margin="518,163,0,0" VerticalAlignment="Top" Height="34" Width="56" Click="Ejercicio4_1Boton_Click"/>
+        <Button x:Name="Ejercicio5_5Boton" Content="Ejercicio 5" HorizontalAlignment="Left" Margin="658,217,0,0" VerticalAlignment="Top" Height="34" Width="56" Click="Ejercicio5_5Boton_Click"/>
+        <Button x:Name="Ejercicio5_4Boton" Content="Ejercicio 4" HorizontalAlignment="Left" Margin="658,163,0,0" VerticalAlignment="Top" Height="34" Width="56" Click="Ejercicio5_4Boton_Click"/>
+
+    </Grid>
+</Window>

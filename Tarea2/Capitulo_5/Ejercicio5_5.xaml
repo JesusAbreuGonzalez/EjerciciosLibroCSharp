@@ -1,0 +1,17 @@
+﻿<Window x:Class="EjerciciosLibroCSharp.Tarea2.Capitulo_5.Ejercicio5_5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EjerciciosLibroCSharp.Tarea2.Capitulo_5"
+        mc:Ignorable="d"
+        Title="Ejercicio5_5" Height="355" Width="600">
+    <Grid Width="600" Height="350">
+        <Label Content="Digite el numero que desea visualizar escrito:" HorizontalAlignment="Left" Margin="21,65,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="numeroTextBox" HorizontalAlignment="Left" Margin="354,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Height="24"/>
+        <Button x:Name="MostrarBoton" Content="Mostrar" HorizontalAlignment="Left" Margin="254,228,0,0" VerticalAlignment="Top" Height="50" Width="78" FontSize="16" Click="MostrarBoton_Click"/>
+        <Label Content="El numero introducido se escribe:" HorizontalAlignment="Left" Margin="21,128,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="resultadoTextBox" HorizontalAlignment="Left" Margin="271,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="122" Height="24" FontSize="14"/>
+
+    </Grid>
+</Window>

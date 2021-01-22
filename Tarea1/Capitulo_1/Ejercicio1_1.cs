@@ -3,13 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Ejercicio1
-{
-    class program
+    class Ejercicio1_1
     {
-        static void Main(string[] args)
+        public Ejercicio1_1()
         {
             Console.WriteLine("Mi nombre es: Jesus Alberto Abreu Gonzalez");
         }
     }
-}

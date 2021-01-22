@@ -3,11 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Ejercicio5
-{
-    class TasaCambio
+    class Ejercicio2_5
     {
-        static void Main(string[] args)
+        public Ejercicio2_5()
         {
             double dolar;
             double euro;
@@ -40,4 +38,3 @@ namespace Ejercicio5
             }            
         }
     }
-}

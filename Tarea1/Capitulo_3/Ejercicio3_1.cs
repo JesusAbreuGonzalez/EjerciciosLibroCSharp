@@ -3,11 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Ejercicio1
-{
-    class ParImpar
+    class Ejercicio3_1
     {
-        static void Main(string[] args)
+        public Ejercicio3_1()
         {
             int numero;
 
@@ -20,4 +18,3 @@ namespace Ejercicio1
                 Console.WriteLine("El numero {0} es impar", numero);
         }
     }
-}

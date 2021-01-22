@@ -1,0 +1,64 @@
+﻿<Window x:Class="EjerciciosLibroCSharp.Capitulo_4.Ejercicio4_1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EjerciciosLibroCSharp.Capitulo_4"
+        mc:Ignorable="d"
+        Title="Ejercicio4_1" Height="450" Width="800">
+    <Grid Background="White">
+        <Label x:Name="NumeroLabel" Content="Digite el numero del cual desea la tabla" HorizontalAlignment="Left" Margin="46,38,0,0" VerticalAlignment="Top" Cursor=""/>
+        <TextBox x:Name="valorTextBox" HorizontalAlignment="Left" Margin="270,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Calcular" HorizontalAlignment="Left" Margin="400,40,0,0" VerticalAlignment="Top" Height="22" Width="62" Click="Button_Click"/>
+        <Label x:Name="unoLabel" Content="1  x" HorizontalAlignment="Left" Margin="46,87,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="diezLabel" Content="10 x" HorizontalAlignment="Left" Margin="46,369,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="nueveLabel" Content="9  x" HorizontalAlignment="Left" Margin="46,338,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ochoLabel" Content="8  x" HorizontalAlignment="Left" Margin="46,307,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="sieteLabel" Content="7  x" HorizontalAlignment="Left" Margin="46,276,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="seisLabel" Content="6  x" HorizontalAlignment="Left" Margin="46,245,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="cincoLabel" Content="5  x" HorizontalAlignment="Left" Margin="46,214,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="cuatroLabel" Content="4  x" HorizontalAlignment="Left" Margin="46,183,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="tresLabel" Content="3  x" HorizontalAlignment="Left" Margin="46,152,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="dosLabel" Content="2  x" HorizontalAlignment="Left" Margin="46,118,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="1.639"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.371"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="_1Label" Content="0" HorizontalAlignment="Left" Margin="76,87,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="_10Label" Content="0" HorizontalAlignment="Left" Margin="76,369,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="_9Label" Content="0" HorizontalAlignment="Left" Margin="76,338,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="_8Label" Content="0" HorizontalAlignment="Left" Margin="76,307,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="_7Label" Content="0" HorizontalAlignment="Left" Margin="76,276,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="_6Label" Content="0" HorizontalAlignment="Left" Margin="76,245,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="_5Label" Content="0" HorizontalAlignment="Left" Margin="76,214,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="_4Label" Content="0" HorizontalAlignment="Left" Margin="76,183,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="_3Label" Content="0" HorizontalAlignment="Left" Margin="76,152,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="_2Label" Content="0" HorizontalAlignment="Left" Margin="76,118,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="igual" Content="=" HorizontalAlignment="Left" Margin="111,87,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="igual_Copy" Content="=" HorizontalAlignment="Left" Margin="111,369,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="igual_Copy1" Content="=" HorizontalAlignment="Left" Margin="111,338,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="igual_Copy2" Content="=" HorizontalAlignment="Left" Margin="111,307,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="igual_Copy3" Content="=" HorizontalAlignment="Left" Margin="111,276,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="igual_Copy4" Content="=" HorizontalAlignment="Left" Margin="111,245,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="igual_Copy5" Content="=" HorizontalAlignment="Left" Margin="111,214,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="igual_Copy6" Content="=" HorizontalAlignment="Left" Margin="111,183,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="igual_Copy7" Content="=" HorizontalAlignment="Left" Margin="111,152,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="igual_Copy8" Content="=" HorizontalAlignment="Left" Margin="111,118,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="result1" Content="0" HorizontalAlignment="Left" Margin="136,87,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="result10" Content="0" HorizontalAlignment="Left" Margin="136,369,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="result9" Content="0" HorizontalAlignment="Left" Margin="136,338,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="result8" Content="0" HorizontalAlignment="Left" Margin="136,307,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="result7" Content="0" HorizontalAlignment="Left" Margin="136,276,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="result6" Content="0" HorizontalAlignment="Left" Margin="136,245,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="result5" Content="0" HorizontalAlignment="Left" Margin="136,214,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="result4" Content="0" HorizontalAlignment="Left" Margin="136,183,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="result3" Content="0" HorizontalAlignment="Left" Margin="136,152,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="result2" Content="0" HorizontalAlignment="Left" Margin="136,118,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
