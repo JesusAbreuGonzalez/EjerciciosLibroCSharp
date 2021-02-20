@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace EjerciciosLibroCSharp.Capitulo6
 {
-    public partial class Ejercicio6_1 : Form
+    public partial class Ejercicio6_1 : Forms
     {
         int cantidad; //cantidad de alumnos
         int salones = 0; //cantidad de salones
